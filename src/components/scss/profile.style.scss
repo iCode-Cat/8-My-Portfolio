@@ -1,0 +1,57 @@
+.profile {
+    display: grid;
+    gap: 2.5rem;
+    margin: 0 auto;
+    max-width: 350px;
+    background: #FFF;
+    border-radius: 12px;
+    &-img-container {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 266px;
+        overflow: hidden;
+        border-radius: 12px;
+        img {
+            width: unset;
+            height: 100%;
+        }
+    }
+    // Profile Info
+    &-info {
+        h1 {
+            color: var(--clr-gray2);
+            font-size: 2.4rem;
+        }
+        p {
+            font-size: 1.8rem;
+            font-weight: 500;
+            color: var(--clr-gray3);
+        }
+    }
+    // Contact
+    &-contact {
+        display: grid;
+        gap: 1rem;
+        * {
+            color: var(--clr-gray2);
+        }
+
+        // Label description
+        p {
+            font-size: 1.8rem;
+        }
+
+        &-box {
+            display: flex;
+            span {
+                margin-right: 1.8rem;
+            }
+        }
+    }
+
+    // About
+    &-about {
+        color: var(--clr-gray3);
+    }
+}
