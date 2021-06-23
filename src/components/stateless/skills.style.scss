@@ -1,0 +1,50 @@
+.skills {
+    display: grid;
+    gap: 10px;
+    max-width: 350px;
+    background: blanchedalmond;
+
+    &-container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    }
+
+    &-title, &-label {
+        color: var(--clr-gray2);
+    }
+    &-title {
+        font-size: 1.8rem;
+        margin-bottom: 1.7rem;
+    }
+    &-label {
+        text-transform: capitalize;
+    }
+  
+    progress[value] {
+        -webkit-appearance: none;
+        appearance: none;
+        background-color: var(--clr-gray4);
+        width: 200px;
+        height: 10px;
+        border-radius: 12px;
+        overflow: hidden;
+        outline: none;
+        border:none;
+    }
+}
+
+
+progress::-moz-progress-bar, 
+progress::-webkit-progress-bar
+ {
+    background: red;
+  }
+
+  ::-webkit-progress-bar {
+    background-color: var(--clr-gray4);
+  }
+
+  progress[value]::-webkit-progress-bar {
+    background-color: "green";
+  }

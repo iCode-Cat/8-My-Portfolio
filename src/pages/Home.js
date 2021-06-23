@@ -8,13 +8,15 @@ const Home = () => {
     return (
         <>
           <main className='container'>
-              <article>
+              <article className='main-content'>
                 <section className='profile global-pd'>
                     <Profile />
                 </section>
-                <section className='skills-frontend global-pd'>
+                <section className='skills-frontend'>
                     <Skills title={'FRONTEND'} object={ frontend } />
-                    <Skills title={'BACKEND'} object={ backend } />
+                </section>
+                <section className='skills-backend'>
+                <Skills title={'BACKEND'} object={ backend } />
                 </section>
               </article>
           </main>

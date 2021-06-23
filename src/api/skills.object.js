@@ -1,27 +1,27 @@
 module.exports.frontend = [
     
     {
-        label:'HTML',
+        label:'html5',
         process:'85'
     },
     {
-        label:'CSS/SCSS',
+        label:'css/scss',
         process:'85'
     },
     {
-        label:'JAVASCRIPT',
+        label:'javascript',
         process:'80'
     },
     {
-        label:'REACT',
+        label:'react',
         process:'75'
     },
     {
-        label:'NEXT.JS',
+        label:'next.js',
         process:'70'
     },
     {
-        label:'REDUX',
+        label:'redux',
         process:'30'
     }
 
@@ -30,19 +30,19 @@ module.exports.frontend = [
 module.exports.backend = [
     
     {
-        label:'NODE.JS',
+        label:'node.js',
         process:'70'
     },
     {
-        label:'EXPRESS',
+        label:'express.js',
         process:'80'
     },
     {
-        label:'MONGODB',
+        label:'mongodb',
         process:'65'
     },
     {
-        label:'KEYSTONE.JS',
+        label:'keystone.js',
         process:'70'
     }
     

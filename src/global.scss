@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -27,9 +26,22 @@ img {
     margin: 0 auto;
 }
 
+// Root Container 
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-content {
+    display: grid;
+    gap: 25px;
+}
+
 // Global Classes
 .global-pd {
-    padding:2.1rem;
+    padding: 2.1rem;
+    border-radius: 12px;
 }
 
 .material-icons {
