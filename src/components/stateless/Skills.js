@@ -1,17 +1,18 @@
 import React from 'react'
+import ProgressBar from "@ramonak/react-progress-bar";
 import './skills.style.scss'
 
-const Skills = ({title, object}) => {
+const Skills = ({object}) => {
     return (
         <section className='skills global-pd'>
             <h1 className="skills-title">
-                {title}
+                {object.title}
             </h1>
             {
-                object.map((skill, index) => (
+                object.skills.map((skill, index) => (
                     <section key={index} className="skills-container">
                     <label className='skills-label'>{skill.label}</label>
-                    <progress className='skills-progress' max='100' value={skill.process}/>
+                    <ProgressBar height={10} isLabelVisible={false} bgColor={'var(--clr-blue)'} baseBgColor={'#C4C4C4'} completed={skill.process}/>
                     </section>
                 ))
             }

@@ -1,13 +1,17 @@
 .skills {
+    &-containers {
+      width: 100%;
+    }
     display: grid;
+    width: 100%;
     gap: 10px;
-    max-width: 350px;
-    background: blanchedalmond;
+    max-width: var(--size-div);
+    background: #FFF;
 
     &-container {
     display: grid;
     align-items: center;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr 2fr;
     }
 
     &-title, &-label {
