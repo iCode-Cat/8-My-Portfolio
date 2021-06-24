@@ -1,7 +1,7 @@
 import React from 'react'
 import './scss/projects.style.scss'
 
-const Projects = () => {
+const ProjectsLabel = () => {
     return (
         <>
             <header className="projects-sort">
@@ -11,4 +11,4 @@ const Projects = () => {
     )
 }
 
-export default Projects
+export default ProjectsLabel

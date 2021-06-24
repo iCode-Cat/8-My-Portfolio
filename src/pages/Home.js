@@ -3,6 +3,7 @@ import Profile from '../components/Profile'
 import Footer from '../components/Footer'
 import Skills from '../components/stateless/Skills'
 import Hobbies from '../components/Hobbies'
+import ProjectsLabel from '../components/ProjectsLabel'
 import Projects from '../components/Projects'
 import { frontend, backend } from '../api/skills.object'
 
@@ -23,7 +24,10 @@ const Home = () => {
                 <section className="hobbies-container global-pd">
                     <Hobbies />
                 </section>
-                <section className="projects global-pd">
+                <section className="projects-label global-pd">
+                    <ProjectsLabel />
+                </section>
+                <section className="projects-label global-pd">
                     <Projects />
                 </section>
               </article>

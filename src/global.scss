@@ -13,7 +13,7 @@ body {
     font-size: 1.6rem;
     font-family: 'Montserrat', sans-serif;
     padding: 1.2rem;
-    background: rgb(233, 229, 225);
+    background: var(--clr-bg);
 }
 
 img {
@@ -43,6 +43,7 @@ img {
 .global-pd {
     padding: 2.1rem;
     border-radius: 12px;
+    background: #FFF;
 }
 
 .material-icons {
