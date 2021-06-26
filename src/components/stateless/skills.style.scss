@@ -35,19 +35,9 @@
         outline: none;
         border:none;
     }
+    @media (min-width:50em) {
+      max-width: unset;
+    }
 }
 
 
-progress::-moz-progress-bar, 
-progress::-webkit-progress-bar
- {
-    background: red;
-  }
-
-  ::-webkit-progress-bar {
-    background-color: var(--clr-gray4);
-  }
-
-  progress[value]::-webkit-progress-bar {
-    background-color: "green";
-  }

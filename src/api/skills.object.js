@@ -3,15 +3,15 @@ module.exports.frontend = {
     title:'FRONT END',
     skills:[
         {
-            label:'html5',
+            label:'HTML5',
             process:'85'
         },
         {
-            label:'css/Scss',
+            label:'SCSS',
             process:'85'
         },
         {
-            label:'javascript',
+            label:'javaScript',
             process:'80'
         },
         {
@@ -47,7 +47,7 @@ module.exports.backend = {
             process:'65'
         },
         {
-            label:'keystone.js',
+            label:'keystone',
             process:'70'
         }
     ]

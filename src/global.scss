@@ -49,3 +49,23 @@ img {
 .material-icons {
     display: inline-block;
 }
+
+@media (min-width:50em) {
+    .main-content {
+        grid-template-columns: repeat(2, 1fr);
+        align-items: flex-start;
+    }
+}
+
+@media (min-width:70em) {
+
+    body {
+        padding: 4rem 0;
+    }
+
+    .main-content {
+        grid-template-columns: repeat(3,1fr);
+        grid-auto-rows: auto;
+        align-items: flex-start;
+    }
+}

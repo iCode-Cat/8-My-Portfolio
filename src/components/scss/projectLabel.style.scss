@@ -1,0 +1,17 @@
+.projects-label {
+    display: grid;
+    justify-content: space-between;
+    width: 100%;
+    &-button-container {
+        margin-top: 1rem;
+       display: grid;
+       grid-template-columns: repeat(3, auto);
+       gap: 5px;
+    }
+    @media (min-width:50em) {
+      grid-column: unset;
+    }
+    @media (min-width:70em) {
+      grid-column: 1/3;
+    }
+}

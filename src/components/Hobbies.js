@@ -4,7 +4,7 @@ import './scss/hobbies.style.scss';
 const Hobbies = () => {
     const { header, content } = hobbiesObject;
     return (
-        <>
+        <section className="hobbies-container global-pd">
             <h1 className="hobbies-title">
                 {header}
             </h1>
@@ -23,7 +23,7 @@ const Hobbies = () => {
                     </section>
                 ))
             }
-        </>
+            </section>
     )
 }
 

@@ -5,7 +5,7 @@ import './scss/profile.style.scss'
 const Profile = () => {
     const { name,role,image,about,contact } = profile[0];
     return (
-        <>
+        <section className='profile global-pd'>
             <div className="profile-img-container">
             <img src={image} alt={name} className="profile-img" />
             </div>
@@ -26,7 +26,7 @@ const Profile = () => {
             <p className="profile-about">
                 {about}
             </p>
-        </>
+        </section>
     )
 }
 

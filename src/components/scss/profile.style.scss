@@ -51,4 +51,7 @@
     &-about {
         color: var(--clr-gray3);
     }
+    @media (min-width:50em) {
+       grid-row-end: span 2;
+    }
 }

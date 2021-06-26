@@ -1,5 +1,7 @@
 .hobbies {
+    
     &-container {
+        
         max-width: var(--size-div);
     }
     &-title {
@@ -31,4 +33,9 @@
             margin-top: 1rem;
         }
     }
+    @media (min-width:50em) {
+        &-container {
+            grid-column: 1/2;
+        }
+     }
 }

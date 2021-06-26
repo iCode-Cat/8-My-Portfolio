@@ -1,0 +1,40 @@
+
+.btn {
+    cursor: pointer;
+    width: 100px;
+    outline: none;
+    border: none;
+    padding: 0rem 2rem;
+    border-radius: 12px;
+    height: 46px;
+    font-size: 1.8rem;
+}
+
+.btn-lg {
+    min-width: 135px;
+}
+
+.btn-sm {
+    font-size: 1.4rem;
+    height: 33px;
+    width: unset;
+    line-height: 17px;
+}
+
+.btn-outlined {
+    background: #FFF;
+    border: solid 1px var(--clr-blue);
+    color: var(--clr-blue);
+}
+
+.btn-secondary {
+    background: none;
+    border: solid 1px var(--clr-gray2);
+    color:var(--clr-gray2);
+}
+
+.btn-contained {
+    background: var(--clr-blue);
+    border: solid 1px var(--clr-blue);
+    color: #FFF;
+}
