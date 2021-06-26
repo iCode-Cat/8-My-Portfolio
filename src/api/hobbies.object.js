@@ -2,7 +2,7 @@ module.exports = {
     header:'Hobbies',
     content:[
         {   
-            img:'http://summer69.org.uk/wp-content/uploads/2015/06/RS2V_choppers_07-642x362.jpg',
+            img:'https://cdn.mos.cms.futurecdn.net/rrn9Xh8ofBcHhA7h8XeGxd-1024-80.jpg.webp',
             title:'Gaming',
             description:'After a heavy day to recharge myself, i always play realistic war games. It is my favorite kind of game.'
         },
