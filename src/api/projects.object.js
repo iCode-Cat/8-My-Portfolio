@@ -50,7 +50,7 @@ module.exports.projectsObject = [
     ],
     title: 'Country Quiz',
     describe: 'Learn more about countries.',
-    demo: 'https://60e1ff05582304180deee49b--boring-shaw-d45d0d.netlify.app/',
+    demo: 'https://boring-shaw-d45d0d.netlify.app/',
     code: 'https://github.com/iCode-Cat/12-Country-Quiz',
     category: 'React',
   },
