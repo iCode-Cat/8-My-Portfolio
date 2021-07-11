@@ -54,4 +54,17 @@ module.exports.projectsObject = [
     code: 'https://github.com/iCode-Cat/12-Country-Quiz',
     category: 'React',
   },
+  {
+    img: 'https://devchallenges.io/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fdevchallenges-1234.appspot.com%2Fo%2FchallengesDesigns%252FweatherThumbnail.png%3Falt%3Dmedia%26token%3D7645edd7-df0f-4ea1-9a8c-2bab7fe01431&w=750&q=75',
+    tags: [
+      {
+        tagname: 'React',
+      },
+    ],
+    title: 'Weather App',
+    describe: 'Check whether you need an umbrella.',
+    demo: 'https://gracious-albattani-7bbc52.netlify.app/',
+    code: 'https://github.com/iCode-Cat/13-Weather-App',
+    category: 'React',
+  },
 ];
