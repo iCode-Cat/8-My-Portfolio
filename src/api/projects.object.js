@@ -78,7 +78,7 @@ module.exports.projectsObject = [
       },
     ],
     title: 'Image Upload',
-    describe: 'It is a image upload service.',
+    describe: 'It is an image upload service fully created by me.',
     demo: 'https://sleepy-tereshkova-33f6d5.netlify.app/',
     code: 'https://github.com/iCode-Cat/14-Image-Upload',
   },
