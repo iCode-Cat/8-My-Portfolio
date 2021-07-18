@@ -67,4 +67,19 @@ module.exports.projectsObject = [
     code: 'https://github.com/iCode-Cat/13-Weather-App',
     category: 'React',
   },
+  {
+    img: 'https://devchallenges.io/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fdevchallenges-1234.appspot.com%2Fo%2FchallengesDesigns%252FImageUploaderThumbnail.png%3Falt%3Dmedia%26token%3Df32259ea-dd8f-4146-9a89-6e3c817b3167&w=750&q=75',
+    tags: [
+      {
+        tagname: 'React',
+      },
+      {
+        tagname: 'Node.js',
+      },
+    ],
+    title: 'Image Upload',
+    describe: 'It is a image upload service.',
+    demo: 'https://sleepy-tereshkova-33f6d5.netlify.app/',
+    code: 'https://github.com/iCode-Cat/14-Image-Upload',
+  },
 ];
