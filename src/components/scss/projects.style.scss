@@ -1,63 +1,53 @@
 .projects {
+  display: grid;
+  gap: 25px;
+  max-width: var(--size-div);
+  &-container {
     display: grid;
-    gap: 25px;
-    max-width: var(--size-div);
-    &-container {
-        display: grid;
-        gap: 22px;
-        
+    gap: 22px;
+  }
+  &-img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    width: 100%;
+    border-radius: 12px;
+    height: 170px;
+    img {
+      width: auto;
+      height: 100%;
     }
-    &-img-container {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        overflow: hidden;
-        width: 100%;
-        border-radius: 12px;
-        height: 170px;
-        img {
-            width: auto;
-            height: 100%;
-        }
-    }
-    &-tags {
-        font-size: 1.6rem;
-        color: var(--clr-gray2);
-    }
-    &-title {
-        font-weight: 500;
-        font-size: 2.4rem;
-        color: var(--clr-grayDark);
-    }
-    &-describe {
-        color: var(--clr-gray3);
-    }
-    &-buttons {
-        display: grid;
-        grid-template-columns: repeat(2, 0fr);
-        gap: 11px ;
-    }
-    
-    @media (min-width:50em) {
-        
-        
-        grid-column: 2/3;
-        grid-row: unset;
-        max-width: unset;
-       
+  }
+  &-tags {
+    font-size: 1.6rem;
+    color: var(--clr-gray2);
+  }
+  &-title {
+    font-weight: 500;
+    font-size: 2.4rem;
+    color: var(--clr-grayDark);
+  }
+  &-describe {
+    color: var(--clr-gray3);
+  }
+  &-buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 0fr);
+    gap: 11px;
+  }
 
-    }
+  @media (min-width: 50em) {
+    grid-column: 2/3;
+    grid-row: unset;
+    max-width: unset;
+  }
 
-    @media (min-width:70em) {
-        
-        grid-template-columns: repeat(2,1fr);
-        grid-column: 2/4;
-        grid-row: 2/4;
-        width: 100%;
-        max-width: unset;
-       
-
-    }
-    
-
+  @media (min-width: 70em) {
+    grid-template-columns: repeat(2, 1fr);
+    grid-column: 2/4;
+    grid-row: 2/10;
+    width: 100%;
+    max-width: unset;
+  }
 }

@@ -43,10 +43,7 @@ const Projects = ({ projectName, setProject }) => {
 
   return (
     <>
-      <section
-        style={{ position: 'relative', width: '100%' }}
-        className='projects'
-      >
+      <section style={{ position: 'relative' }} className='projects'>
         {projects ? (
           <>
             <ProjectsLabel projects={projects} setProject={setProject} />
