@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import Button from './stateless/Button';
 import ProjectsLabel from '../components/ProjectsLabel';
+import Logo from '../ripple.svg';
 import './scss/projects.style.scss';
 
 const Projects = ({ projectName, setProject }) => {
@@ -39,11 +40,13 @@ const Projects = ({ projectName, setProject }) => {
   useEffect(() => {
     projectJson();
   }, []);
-  console.log(projects);
 
   return (
     <>
-      <section style={{ position: 'relative' }} className='projects'>
+      <section
+        style={{ position: 'relative', width: '100%' }}
+        className='projects'
+      >
         {projects ? (
           <>
             <ProjectsLabel projects={projects} setProject={setProject} />
@@ -87,18 +90,22 @@ const Projects = ({ projectName, setProject }) => {
             ))}
           </>
         ) : (
-          <h3
+          <img
+            width='10px'
+            src={Logo}
             style={{
               position: 'absolute',
               margin: '0 auto',
-              width: '100%',
+              left: 0,
+              right: 0,
+              minHeight: '500px',
+              paddingBottom: '50px',
+              width: '150px',
               textAlign: 'center',
-              top: '150px',
+              top: '50px',
               color: '#333',
             }}
-          >
-            PROJECTS FETCHING...
-          </h3>
+          />
         )}
       </section>
     </>
