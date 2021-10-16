@@ -88,7 +88,6 @@ const Projects = ({ projectName, setProject }) => {
           </>
         ) : (
           <img
-            width='10px'
             src={Logo}
             style={{
               position: 'absolute',
@@ -97,7 +96,8 @@ const Projects = ({ projectName, setProject }) => {
               right: 0,
               minHeight: '500px',
               paddingBottom: '50px',
-              width: '150px',
+              width: '100%',
+              maxWidth: '150px',
               textAlign: 'center',
               top: '50px',
               color: '#333',
